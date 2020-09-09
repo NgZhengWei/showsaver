@@ -24,7 +24,8 @@ if ($result->num_rows > 0) {
                             <p class='card-text font-italics txt-sm'> <a href='#'>$category</a> </p>
                             <p class='card-text txt-sm'>$summary</p>
                             <a href='$link' class='btn btn-primary' target='_blank'>Read</a>
-                            <a href='#' class='btn btn-secondary'>Update</a>
+                            <a href='edit.php?edit={$id}' class='btn btn-warning'>Update</a>
+                            <a href='inc/deleteshow.php?delete={$id}' class='btn btn-danger'>Delete</a>
                         </div>
                     </div>
                 </div>

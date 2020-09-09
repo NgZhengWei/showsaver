@@ -1,0 +1,7 @@
+1. Create alerts for warnings and have the forms that are filled remain intact
+
+2. Create a confirmation popup for deletion of shows
+
+4. Create a auto deletion of images when shows are edited or deleted
+
+3. Make the autofill from link function
